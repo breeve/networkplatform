@@ -1,0 +1,1 @@
+export NETWORK_PLATFORM_ROOT_PATH=`pwd`
