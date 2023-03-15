@@ -1,0 +1,25 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_bus_vmbus.so.23]
+DPDK_23 A
+INTERNAL A
+rte_vmbus_chan_close T 0000000000000062
+rte_vmbus_chan_open T 000000000000006b
+rte_vmbus_chan_recv T 0000000000000139
+rte_vmbus_chan_recv_raw T 00000000000000df
+rte_vmbus_chan_rx_empty T 000000000000000f
+rte_vmbus_chan_send T 00000000000000dd
+rte_vmbus_chan_send_sglist T 000000000000010d
+rte_vmbus_chan_signal_read T 000000000000007d
+rte_vmbus_chan_signal_tx T 0000000000000035
+rte_vmbus_irq_mask T 000000000000000a
+rte_vmbus_irq_read T 0000000000000005
+rte_vmbus_irq_unmask T 0000000000000007
+rte_vmbus_map_device T 00000000000003c0
+rte_vmbus_max_channels T 000000000000001f
+rte_vmbus_probe T 0000000000000264
+rte_vmbus_register T 0000000000000050
+rte_vmbus_scan T 00000000000000a9
+rte_vmbus_set_latency T 000000000000007b
+rte_vmbus_sub_channel_index T 0000000000000005
+rte_vmbus_subchan_open T 000000000000004d
+rte_vmbus_unmap_device T 0000000000000005
+rte_vmbus_unregister T 0000000000000032

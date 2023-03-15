@@ -1,0 +1,13 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_mempool_octeontx.so.23]
+__bss_start B
+_edata D
+_end B
+_fini T
+_init T
+octeontx_fpa_bufpool_block_size T 00000000000000ca
+octeontx_fpa_bufpool_create T 000000000000078c
+octeontx_fpa_bufpool_destroy T 000000000000051e
+octeontx_fpa_bufpool_free_count T 0000000000000090
+octeontx_fpavf_pmd_info R 000000000000003b
+octeontx_fpavf_pool_set_range T 0000000000000023
+octeontx_logtype_fpavf B 0000000000000004

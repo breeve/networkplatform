@@ -1,0 +1,36 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_compressdev.so.23]
+EXPERIMENTAL A
+rte_comp_get_feature_name T 0000000000000122
+rte_comp_op_alloc T 00000000000001f4
+rte_comp_op_bulk_alloc T 0000000000000481
+rte_comp_op_bulk_free T 000000000000014a
+rte_comp_op_free T 0000000000000103
+rte_comp_op_pool_create T 0000000000000111
+rte_compressdev_capability_get T 000000000000006c
+rte_compressdev_close T 0000000000000161
+rte_compressdev_configure T 000000000000038c
+rte_compressdev_count T 0000000000000008
+rte_compressdev_dequeue_burst T 000000000000002f
+rte_compressdev_devices_get T 00000000000000c5
+rte_compressdev_enqueue_burst T 0000000000000030
+rte_compressdev_get_dev_id T 000000000000007d
+rte_compressdev_get_feature_name T 0000000000000093
+rte_compressdev_info_get T 0000000000000092
+rte_compressdev_name_get T 0000000000000023
+rte_compressdev_pmd_allocate T 00000000000001fd
+rte_compressdev_pmd_create T 0000000000000169
+rte_compressdev_pmd_destroy T 000000000000006f
+rte_compressdev_pmd_get_named_dev T 000000000000007e
+rte_compressdev_pmd_parse_input_args T 0000000000000087
+rte_compressdev_pmd_release_device T 0000000000000036
+rte_compressdev_private_xform_create T 0000000000000085
+rte_compressdev_private_xform_free T 0000000000000085
+rte_compressdev_queue_pair_count T 0000000000000019
+rte_compressdev_queue_pair_setup T 0000000000000118
+rte_compressdev_socket_id T 000000000000002c
+rte_compressdev_start T 0000000000000107
+rte_compressdev_stats_get T 00000000000000dc
+rte_compressdev_stats_reset T 0000000000000072
+rte_compressdev_stop T 00000000000000a9
+rte_compressdev_stream_create T 0000000000000085
+rte_compressdev_stream_free T 0000000000000085

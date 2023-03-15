@@ -1,0 +1,8 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_crypto_cnxk.so.23]
+cn10k_cpt_crypto_adapter_dequeue T 0000000000000799
+cn10k_cpt_crypto_adapter_vector_dequeue T 000000000000095a
+cn10k_cpt_sg_ver1_crypto_adapter_enqueue T 000000000000000a
+cn10k_cpt_sg_ver2_crypto_adapter_enqueue T 000000000000000d
+cn9k_cpt_crypto_adapter_dequeue T 00000000000006ce
+cn9k_cpt_crypto_adapter_enqueue T 0000000000000448
+INTERNAL A

@@ -1,0 +1,8 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_meter.so.23]
+DPDK_23 A
+rte_meter_srtcm_config T 0000000000000036
+rte_meter_srtcm_profile_config T 0000000000000188
+rte_meter_trtcm_config T 0000000000000036
+rte_meter_trtcm_profile_config T 00000000000002b3
+rte_meter_trtcm_rfc4115_config T 0000000000000036
+rte_meter_trtcm_rfc4115_profile_config T 00000000000002d8

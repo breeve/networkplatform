@@ -1,0 +1,42 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_mbuf.so.23]
+DPDK_23 A
+EXPERIMENTAL A
+rte_get_ptype_inner_l2_name T 000000000000003e
+rte_get_ptype_inner_l3_name T 0000000000000078
+rte_get_ptype_inner_l4_name T 0000000000000078
+rte_get_ptype_l2_name T 00000000000000c8
+rte_get_ptype_l3_name T 0000000000000072
+rte_get_ptype_l4_name T 0000000000000092
+rte_get_ptype_name T 000000000000024e
+rte_get_ptype_tunnel_name T 0000000000000102
+rte_get_rx_ol_flag_list T 00000000000000d5
+rte_get_rx_ol_flag_name T 0000000000000208
+rte_get_tx_ol_flag_list T 00000000000000d3
+rte_get_tx_ol_flag_name T 00000000000002f8
+rte_mbuf_best_mempool_ops T 0000000000000033
+rte_mbuf_check T 0000000000000148
+rte_mbuf_dyn_dump T 00000000000001eb
+rte_mbuf_dynfield_lookup T 0000000000000122
+rte_mbuf_dynfield_register T 000000000000000c
+rte_mbuf_dynfield_register_offset T 0000000000000757
+rte_mbuf_dynflag_lookup T 000000000000011c
+rte_mbuf_dynflag_register T 000000000000000a
+rte_mbuf_dynflag_register_bitnum T 0000000000000305
+rte_mbuf_dyn_rx_timestamp_register T 00000000000000ec
+rte_mbuf_dyn_tx_timestamp_register T 00000000000000ec
+rte_mbuf_platform_mempool_ops T 0000000000000024
+rte_mbuf_sanity_check T 000000000000003a
+rte_mbuf_set_platform_mempool_ops T 00000000000000dc
+rte_mbuf_set_user_mempool_ops T 0000000000000087
+rte_mbuf_user_mempool_ops T 0000000000000029
+rte_pktmbuf_clone T 0000000000000535
+rte_pktmbuf_copy T 000000000000078b
+rte_pktmbuf_dump T 0000000000000166
+rte_pktmbuf_free_bulk T 0000000000000b3b
+rte_pktmbuf_init T 00000000000000ba
+__rte_pktmbuf_linearize T 0000000000000825
+rte_pktmbuf_pool_create T 000000000000001d
+rte_pktmbuf_pool_create_by_ops T 000000000000014c
+rte_pktmbuf_pool_create_extbuf T 00000000000002a8
+rte_pktmbuf_pool_init T 0000000000000056
+__rte_pktmbuf_read T 00000000000003bb

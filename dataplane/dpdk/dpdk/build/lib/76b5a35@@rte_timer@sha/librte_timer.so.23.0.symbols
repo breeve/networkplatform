@@ -1,0 +1,21 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_timer.so.23]
+DPDK_23 A
+EXPERIMENTAL A
+rte_timer_alt_dump_stats T 000000000000005e
+rte_timer_alt_manage T 0000000000000474
+rte_timer_alt_reset T 000000000000008f
+rte_timer_alt_stop T 0000000000000117
+rte_timer_data_alloc T 0000000000000057
+rte_timer_data_dealloc T 000000000000004e
+rte_timer_dump_stats T 000000000000000a
+rte_timer_init T 0000000000000008
+rte_timer_manage T 00000000000002e4
+rte_timer_next_ticks T 0000000000000092
+rte_timer_pending T 000000000000000f
+rte_timer_reset T 0000000000000022
+rte_timer_reset_sync T 0000000000000054
+rte_timer_stop T 000000000000000a
+rte_timer_stop_all T 00000000000001cf
+rte_timer_stop_sync T 0000000000000020
+rte_timer_subsystem_finalize T 0000000000000046
+rte_timer_subsystem_init T 000000000000010a

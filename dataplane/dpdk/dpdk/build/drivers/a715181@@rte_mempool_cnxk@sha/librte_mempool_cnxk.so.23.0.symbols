@@ -1,0 +1,15 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_mempool_cnxk.so.23]
+__bss_start B
+cn10k_mempool_plt_init T 00000000000000a1
+cnxk_mempool_alloc T 0000000000000219
+cnxk_mempool_calc_mem_size T 0000000000000017
+cnxk_mempool_deq T 0000000000000025
+cnxk_mempool_enq T 0000000000000032
+cnxk_mempool_free T 000000000000008e
+cnxk_mempool_get_count T 0000000000000003
+cnxk_mempool_populate T 00000000000001c0
+_edata D
+_end B
+_fini T
+_init T
+mempool_cnxk_pmd_info R 00000000000002a8

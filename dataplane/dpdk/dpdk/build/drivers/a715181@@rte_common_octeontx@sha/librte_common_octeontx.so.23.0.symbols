@@ -1,0 +1,8 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_common_octeontx.so.23]
+INTERNAL A
+octeontx_get_global_domain T 0000000000000008
+octeontx_logtype_mbox B 0000000000000004
+octeontx_mbox_init T 0000000000000235
+octeontx_mbox_send T 00000000000002da
+octeontx_mbox_set_ram_mbox_base T 0000000000000078
+octeontx_mbox_set_reg T 0000000000000078

@@ -1,0 +1,5 @@
+[options]
+prefix = /root/networkplatform/dataplane/dpdk/lib
+
+[properties]
+

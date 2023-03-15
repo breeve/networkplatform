@@ -1,0 +1,4331 @@
+Build started at 2023-03-14T11:52:31.639133
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/root/networkplatform/dataplane/dpdk/lib
+Python system: Linux
+The Meson build system
+Version: 0.54.0
+Source dir: /root/networkplatform/dataplane/dpdk/dpdk
+Build dir: /root/networkplatform/dataplane/dpdk/dpdk/build
+Build type: native build
+Program cat found: YES (/usr/bin/cat)
+Running command: /usr/bin/cat /root/networkplatform/dataplane/dpdk/dpdk/VERSION
+--- stdout ---
+22.11.0
+
+--- stderr ---
+
+
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: DPDK
+Project version: 22.11.0
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/sanitycheckc.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 4.8.5 "cc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44)")
+C linker for the build machine: cc ld.bfd 2.27-44
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/sanitycheckc.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 4.8.5 "cc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44)")
+C linker for the host machine: cc ld.bfd 2.27-44
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+[Errno 21] Is a directory: '/root/networkplatform/dataplane/dpdk/dpdk/buildtools/pkg-config'
+Unusable script '/root/networkplatform/dataplane/dpdk/dpdk/buildtools/pkg-config'
+Program pkg-config found: YES (/usr/bin/pkg-config)
+Program check-symbols.sh found: YES (/bin/sh /root/networkplatform/dataplane/dpdk/dpdk/buildtools/check-symbols.sh)
+Program options-ibverbs-static.sh found: YES (/bin/sh /root/networkplatform/dataplane/dpdk/dpdk/buildtools/options-ibverbs-static.sh)
+Program objdump found: YES (/usr/bin/objdump)
+Program python3 found: YES (/usr/bin/python3)
+Running command: /usr/bin/python3 -c import importlib.util; import sys; exit(importlib.util.find_spec("elftools") is None)
+--- stdout ---
+
+--- stderr ---
+
+
+Program cat found: YES (/usr/bin/cat)
+Running command: /usr/bin/cat /root/networkplatform/dataplane/dpdk/dpdk/ABI_VERSION
+--- stdout ---
+23.0
+
+--- stderr ---
+
+
+Program ../buildtools/symlink-drivers-solibs.sh found: YES (/bin/sh /root/networkplatform/dataplane/dpdk/dpdk/config/../buildtools/symlink-drivers-solibs.sh)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpf_oayma5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpf_oayma5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpf_oayma5/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "void *" : 8
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwwnqjjlc
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwwnqjjlc/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwwnqjjlc/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "void *" : 8
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpq2do66f5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpq2do66f5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpq2do66f5/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpw6vepqq1
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpw6vepqq1/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpw6vepqq1/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lnuma -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lnuma
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj0_evqez
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj0_evqez/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj0_evqez/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp3rgupemz
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp3rgupemz/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp3rgupemz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-redhat-linux/4.8.5/
+programs: =/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/bin/
+libraries: =/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/x86_64-redhat-linux/4.8.5/:/lib/../lib64/:/usr/lib/x86_64-redhat-linux/4.8.5/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Library numa found: NO
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpah2zil55
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpah2zil55/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpah2zil55/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -llibfdt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -llibfdt
+collect2: error: ld returned 1 exit status
+
+Library libfdt found: NO
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp04x7o1yv
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp04x7o1yv/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp04x7o1yv/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -llibexecinfo -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -llibexecinfo
+collect2: error: ld returned 1 exit status
+
+Library libexecinfo found: NO
+Pkg-config binary for MachineChoice.HOST is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.27.1)
+Determining dependency 'libarchive' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libarchive` -> 1
+
+Run-time dependency libarchive found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libbsd' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libbsd` -> 1
+
+Run-time dependency libbsd found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'jansson' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion jansson` -> 1
+
+Run-time dependency jansson found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'openssl' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion openssl` -> 0
+1.0.2k
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags openssl` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config openssl --libs` -> 0
+-L/usr/lib64 -lssl -lcrypto
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config openssl --libs` -> 0
+-lssl -lcrypto
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency openssl found: YES 1.0.2k
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libpcap' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libpcap` -> 1
+
+Run-time dependency libpcap found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc2m22zyw
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc2m22zyw/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc2m22zyw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lpcap -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library pcap found: YES
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpp5_0tc_0
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpp5_0tc_0/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("pcap.h")
+          #error "Header 'pcap.h' could not be found"
+         #endif
+        #else
+         #include <pcap.h>
+        #endif
+Compiler stdout:
+ 
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+typedef signed long int __int64_t;
+typedef unsigned long int __uint64_t;
+typedef long int __quad_t;
+typedef unsigned long int __u_quad_t;
+typedef unsigned long int __dev_t;
+typedef unsigned int __uid_t;
+typedef unsigned int __gid_t;
+typedef unsigned long int __ino_t;
+typedef unsigned long int __ino64_t;
+typedef unsigned int __mode_t;
+typedef unsigned long int __nlink_t;
+typedef long int __off_t;
+typedef long int __off64_t;
+typedef int __pid_t;
+typedef struct { int __val[2]; } __fsid_t;
+typedef long int __clock_t;
+typedef unsigned long int __rlim_t;
+typedef unsigned long int __rlim64_t;
+typedef unsigned int __id_t;
+typedef long int __time_t;
+typedef unsigned int __useconds_t;
+typedef long int __suseconds_t;
+typedef int __daddr_t;
+typedef int __key_t;
+typedef int __clockid_t;
+typedef void * __timer_t;
+typedef long int __blksize_t;
+typedef long int __blkcnt_t;
+typedef long int __blkcnt64_t;
+typedef unsigned long int __fsblkcnt_t;
+typedef unsigned long int __fsblkcnt64_t;
+typedef unsigned long int __fsfilcnt_t;
+typedef unsigned long int __fsfilcnt64_t;
+typedef long int __fsword_t;
+typedef long int __ssize_t;
+typedef long int __syscall_slong_t;
+typedef unsigned long int __syscall_ulong_t;
+typedef __off64_t __loff_t;
+typedef __quad_t *__qaddr_t;
+typedef char *__caddr_t;
+typedef long int __intptr_t;
+typedef unsigned int __socklen_t;
+typedef __u_char u_char;
+typedef __u_short u_short;
+typedef __u_int u_int;
+typedef __u_long u_long;
+typedef __quad_t quad_t;
+typedef __u_quad_t u_quad_t;
+typedef __fsid_t fsid_t;
+typedef __loff_t loff_t;
+typedef __ino64_t ino_t;
+typedef __dev_t dev_t;
+typedef __gid_t gid_t;
+typedef __mode_t mode_t;
+typedef __nlink_t nlink_t;
+typedef __uid_t uid_t;
+typedef __off64_t off_t;
+typedef __pid_t pid_t;
+typedef __id_t id_t;
+typedef __ssize_t ssize_t;
+typedef __daddr_t daddr_t;
+typedef __caddr_t caddr_t;
+typedef __key_t key_t;
+
+typedef __clock_t clock_t;
+
+
+
+typedef __time_t time_t;
+
+
+typedef __clockid_t clockid_t;
+typedef __timer_t timer_t;
+typedef long unsigned int size_t;
+typedef unsigned long int ulong;
+typedef unsigned short int ushort;
+typedef unsigned int uint;
+typedef int int8_t __attribute__ ((__mode__ (__QI__)));
+typedef int int16_t __attribute__ ((__mode__ (__HI__)));
+typedef int int32_t __attribute__ ((__mode__ (__SI__)));
+typedef int int64_t __attribute__ ((__mode__ (__DI__)));
+typedef unsigned int u_int8_t __attribute__ ((__mode__ (__QI__)));
+typedef unsigned int u_int16_t __attribute__ ((__mode__ (__HI__)));
+typedef unsigned int u_int32_t __attribute__ ((__mode__ (__SI__)));
+typedef unsigned int u_int64_t __attribute__ ((__mode__ (__DI__)));
+typedef int register_t __attribute__ ((__mode__ (__word__)));
+static __inline unsigned int
+__bswap_32 (unsigned int __bsx)
+{
+  return __builtin_bswap32 (__bsx);
+}
+static __inline __uint64_t
+__bswap_64 (__uint64_t __bsx)
+{
+  return __builtin_bswap64 (__bsx);
+}
+typedef int __sig_atomic_t;
+typedef struct
+  {
+    unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
+  } __sigset_t;
+typedef __sigset_t sigset_t;
+struct timespec
+  {
+    __time_t tv_sec;
+    __syscall_slong_t tv_nsec;
+  };
+struct timeval
+  {
+    __time_t tv_sec;
+    __suseconds_t tv_usec;
+  };
+typedef __suseconds_t suseconds_t;
+typedef long int __fd_mask;
+typedef struct
+  {
+    __fd_mask __fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
+  } fd_set;
+typedef __fd_mask fd_mask;
+
+extern int select (int __nfds, fd_set *__restrict __readfds,
+     fd_set *__restrict __writefds,
+     fd_set *__restrict __exceptfds,
+     struct timeval *__restrict __timeout);
+extern int pselect (int __nfds, fd_set *__restrict __readfds,
+      fd_set *__restrict __writefds,
+      fd_set *__restrict __exceptfds,
+      const struct timespec *__restrict __timeout,
+      const __sigset_t *__restrict __sigmask);
+
+
+__extension__
+extern unsigned int gnu_dev_major (unsigned long long int __dev)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
+__extension__
+extern unsigned int gnu_dev_minor (unsigned long long int __dev)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
+__extension__
+extern unsigned long long int gnu_dev_makedev (unsigned int __major,
+            unsigned int __minor)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
+
+typedef __blksize_t blksize_t;
+typedef __blkcnt64_t blkcnt_t;
+typedef __fsblkcnt64_t fsblkcnt_t;
+typedef __fsfilcnt64_t fsfilcnt_t;
+typedef unsigned long int pthread_t;
+union pthread_attr_t
+{
+  char __size[56];
+  long int __align;
+};
+typedef union pthread_attr_t pthread_attr_t;
+typedef struct __pthread_internal_list
+{
+  struct __pthread_internal_list *__prev;
+  struct __pthread_internal_list *__next;
+} __pthread_list_t;
+typedef union
+{
+  struct __pthread_mutex_s
+  {
+    int __lock;
+    unsigned int __count;
+    int __owner;
+    unsigned int __nusers;
+    int __kind;
+    short __spins;
+    short __elision;
+    __pthread_list_t __list;
+  } __data;
+  char __size[40];
+  long int __align;
+} pthread_mutex_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_mutexattr_t;
+typedef union
+{
+  struct
+  {
+    int __lock;
+    unsigned int __futex;
+    __extension__ unsigned long long int __total_seq;
+    __extension__ unsigned long long int __wakeup_seq;
+    __extension__ unsigned long long int __woken_seq;
+    void *__mutex;
+    unsigned int __nwaiters;
+    unsigned int __broadcast_seq;
+  } __data;
+  char __size[48];
+  __extension__ long long int __align;
+} pthread_cond_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_condattr_t;
+typedef unsigned int pthread_key_t;
+typedef int pthread_once_t;
+typedef union
+{
+  struct
+  {
+    int __lock;
+    unsigned int __nr_readers;
+    unsigned int __readers_wakeup;
+    unsigned int __writer_wakeup;
+    unsigned int __nr_readers_queued;
+    unsigned int __nr_writers_queued;
+    int __writer;
+    int __shared;
+    unsigned long int __pad1;
+    unsigned long int __pad2;
+    unsigned int __flags;
+  } __data;
+  char __size[56];
+  long int __align;
+} pthread_rwlock_t;
+typedef union
+{
+  char __size[8];
+  long int __align;
+} pthread_rwlockattr_t;
+typedef volatile int pthread_spinlock_t;
+typedef union
+{
+  char __size[32];
+  long int __align;
+} pthread_barrier_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_barrierattr_t;
+
+
+struct timezone
+  {
+    int tz_minuteswest;
+    int tz_dsttime;
+  };
+typedef struct timezone *__restrict __timezone_ptr_t;
+extern int gettimeofday (struct timeval *__restrict __tv,
+    __timezone_ptr_t __tz) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern int settimeofday (const struct timeval *__tv,
+    const struct timezone *__tz)
+     __attribute__ ((__nothrow__ , __leaf__));
+extern int adjtime (const struct timeval *__delta,
+      struct timeval *__olddelta) __attribute__ ((__nothrow__ , __leaf__));
+enum __itimer_which
+  {
+    ITIMER_REAL = 0,
+    ITIMER_VIRTUAL = 1,
+    ITIMER_PROF = 2
+  };
+struct itimerval
+  {
+    struct timeval it_interval;
+    struct timeval it_value;
+  };
+typedef int __itimer_which_t;
+extern int getitimer (__itimer_which_t __which,
+        struct itimerval *__value) __attribute__ ((__nothrow__ , __leaf__));
+extern int setitimer (__itimer_which_t __which,
+        const struct itimerval *__restrict __new,
+        struct itimerval *__restrict __old) __attribute__ ((__nothrow__ , __leaf__));
+extern int utimes (const char *__file, const struct timeval __tvp[2])
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern int lutimes (const char *__file, const struct timeval __tvp[2])
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern int futimes (int __fd, const struct timeval __tvp[2]) __attribute__ ((__nothrow__ , __leaf__));
+
+typedef unsigned char uint8_t;
+typedef unsigned short int uint16_t;
+typedef unsigned int uint32_t;
+typedef unsigned long int uint64_t;
+typedef signed char int_least8_t;
+typedef short int int_least16_t;
+typedef int int_least32_t;
+typedef long int int_least64_t;
+typedef unsigned char uint_least8_t;
+typedef unsigned short int uint_least16_t;
+typedef unsigned int uint_least32_t;
+typedef unsigned long int uint_least64_t;
+typedef signed char int_fast8_t;
+typedef long int int_fast16_t;
+typedef long int int_fast32_t;
+typedef long int int_fast64_t;
+typedef unsigned char uint_fast8_t;
+typedef unsigned long int uint_fast16_t;
+typedef unsigned long int uint_fast32_t;
+typedef unsigned long int uint_fast64_t;
+typedef long int intptr_t;
+typedef unsigned long int uintptr_t;
+typedef long int intmax_t;
+typedef unsigned long int uintmax_t;
+typedef int bpf_int32;
+typedef u_int bpf_u_int32;
+struct bpf_program {
+ u_int bf_len;
+ struct bpf_insn *bf_insns;
+};
+struct bpf_insn {
+ u_short code;
+ u_char jt;
+ u_char jf;
+ bpf_u_int32 k;
+};
+struct bpf_aux_data {
+        uint16_t vlan_tag_present;
+        uint16_t vlan_tag;
+};
+extern int bpf_validate(const struct bpf_insn *, int);
+extern u_int bpf_filter(const struct bpf_insn *, const u_char *, u_int, u_int);
+extern u_int bpf_filter_with_aux_data(const struct bpf_insn *, const u_char *, u_int, u_int, const struct bpf_aux_data *);
+
+struct _IO_FILE;
+
+typedef struct _IO_FILE FILE;
+
+
+typedef struct _IO_FILE __FILE;
+typedef struct
+{
+  int __count;
+  union
+  {
+    unsigned int __wch;
+    char __wchb[4];
+  } __value;
+} __mbstate_t;
+typedef struct
+{
+  __off_t __pos;
+  __mbstate_t __state;
+} _G_fpos_t;
+typedef struct
+{
+  __off64_t __pos;
+  __mbstate_t __state;
+} _G_fpos64_t;
+typedef __builtin_va_list __gnuc_va_list;
+struct _IO_jump_t; struct _IO_FILE;
+typedef void _IO_lock_t;
+struct _IO_marker {
+  struct _IO_marker *_next;
+  struct _IO_FILE *_sbuf;
+  int _pos;
+};
+enum __codecvt_result
+{
+  __codecvt_ok,
+  __codecvt_partial,
+  __codecvt_error,
+  __codecvt_noconv
+};
+struct _IO_FILE {
+  int _flags;
+  char* _IO_read_ptr;
+  char* _IO_read_end;
+  char* _IO_read_base;
+  char* _IO_write_base;
+  char* _IO_write_ptr;
+  char* _IO_write_end;
+  char* _IO_buf_base;
+  char* _IO_buf_end;
+  char *_IO_save_base;
+  char *_IO_backup_base;
+  char *_IO_save_end;
+  struct _IO_marker *_markers;
+  struct _IO_FILE *_chain;
+  int _fileno;
+  int _flags2;
+  __off_t _old_offset;
+  unsigned short _cur_column;
+  signed char _vtable_offset;
+  char _shortbuf[1];
+  _IO_lock_t *_lock;
+  __off64_t _offset;
+  void *__pad1;
+  void *__pad2;
+  void *__pad3;
+  void *__pad4;
+  size_t __pad5;
+  int _mode;
+  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+};
+typedef struct _IO_FILE _IO_FILE;
+struct _IO_FILE_plus;
+extern struct _IO_FILE_plus _IO_2_1_stdin_;
+extern struct _IO_FILE_plus _IO_2_1_stdout_;
+extern struct _IO_FILE_plus _IO_2_1_stderr_;
+typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
+typedef __ssize_t __io_write_fn (void *__cookie, const char *__buf,
+     size_t __n);
+typedef int __io_seek_fn (void *__cookie, __off64_t *__pos, int __w);
+typedef int __io_close_fn (void *__cookie);
+extern int __underflow (_IO_FILE *);
+extern int __uflow (_IO_FILE *);
+extern int __overflow (_IO_FILE *, int);
+extern int _IO_getc (_IO_FILE *__fp);
+extern int _IO_putc (int __c, _IO_FILE *__fp);
+extern int _IO_feof (_IO_FILE *__fp) __attribute__ ((__nothrow__ , __leaf__));
+extern int _IO_ferror (_IO_FILE *__fp) __attribute__ ((__nothrow__ , __leaf__));
+extern int _IO_peekc_locked (_IO_FILE *__fp);
+extern void _IO_flockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
+extern void _IO_funlockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
+extern int _IO_ftrylockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
+extern int _IO_vfscanf (_IO_FILE * __restrict, const char * __restrict,
+   __gnuc_va_list, int *__restrict);
+extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
+    __gnuc_va_list);
+extern __ssize_t _IO_padn (_IO_FILE *, int, __ssize_t);
+extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);
+extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);
+extern void _IO_free_backup_area (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
+typedef __gnuc_va_list va_list;
+
+typedef _G_fpos64_t fpos_t;
+
+extern struct _IO_FILE *stdin;
+extern struct _IO_FILE *stdout;
+extern struct _IO_FILE *stderr;
+
+extern int remove (const char *__filename) __attribute__ ((__nothrow__ , __leaf__));
+extern int rename (const char *__old, const char *__new) __attribute__ ((__nothrow__ , __leaf__));
+
+extern int renameat (int __oldfd, const char *__old, int __newfd,
+       const char *__new) __attribute__ ((__nothrow__ , __leaf__));
+
+extern FILE *tmpfile (void) __asm__ ("" "tmpfile64") ;
+extern char *tmpnam (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;
+
+extern char *tmpnam_r (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern char *tempnam (const char *__dir, const char *__pfx)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
+
+extern int fclose (FILE *__stream);
+extern int fflush (FILE *__stream);
+
+extern int fflush_unlocked (FILE *__stream);
+
+extern FILE *fopen (const char *__restrict __filename, const char *__restrict __modes) __asm__ ("" "fopen64")
+  ;
+extern FILE *freopen (const char *__restrict __filename, const char *__restrict __modes, FILE *__restrict __stream) __asm__ ("" "freopen64")
+  ;
+
+extern FILE *fdopen (int __fd, const char *__modes) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+  __attribute__ ((__nothrow__ , __leaf__)) ;
+extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __attribute__ ((__nothrow__ , __leaf__)) ;
+
+extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__));
+extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
+      int __modes, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
+
+extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
+         size_t __size) __attribute__ ((__nothrow__ , __leaf__));
+extern void setlinebuf (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+
+extern int fprintf (FILE *__restrict __stream,
+      const char *__restrict __format, ...);
+extern int printf (const char *__restrict __format, ...);
+extern int sprintf (char *__restrict __s,
+      const char *__restrict __format, ...) __attribute__ ((__nothrow__));
+extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,
+       __gnuc_va_list __arg);
+extern int vprintf (const char *__restrict __format, __gnuc_va_list __arg);
+extern int vsprintf (char *__restrict __s, const char *__restrict __format,
+       __gnuc_va_list __arg) __attribute__ ((__nothrow__));
+
+
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+       const char *__restrict __format, ...)
+     __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 4)));
+extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+        const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 0)));
+
+extern int vdprintf (int __fd, const char *__restrict __fmt,
+       __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__printf__, 2, 0)));
+extern int dprintf (int __fd, const char *__restrict __fmt, ...)
+     __attribute__ ((__format__ (__printf__, 2, 3)));
+
+extern int fscanf (FILE *__restrict __stream,
+     const char *__restrict __format, ...) ;
+extern int scanf (const char *__restrict __format, ...) ;
+extern int sscanf (const char *__restrict __s,
+     const char *__restrict __format, ...) __attribute__ ((__nothrow__ , __leaf__));
+extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf") ;
+extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_scanf") ;
+extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) __asm__ ("" "__isoc99_sscanf") __attribute__ ((__nothrow__ , __leaf__));
+
+
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
+      __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+extern int vsscanf (const char *__restrict __s,
+      const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__format__ (__scanf__, 2, 0)));
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfscanf")
+     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vscanf")
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vsscanf") __attribute__ ((__nothrow__ , __leaf__))
+     __attribute__ ((__format__ (__scanf__, 2, 0)));
+
+
+extern int fgetc (FILE *__stream);
+extern int getc (FILE *__stream);
+extern int getchar (void);
+
+extern int getc_unlocked (FILE *__stream);
+extern int getchar_unlocked (void);
+extern int fgetc_unlocked (FILE *__stream);
+
+extern int fputc (int __c, FILE *__stream);
+extern int putc (int __c, FILE *__stream);
+extern int putchar (int __c);
+
+extern int fputc_unlocked (int __c, FILE *__stream);
+extern int putc_unlocked (int __c, FILE *__stream);
+extern int putchar_unlocked (int __c);
+extern int getw (FILE *__stream);
+extern int putw (int __w, FILE *__stream);
+
+extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+     ;
+extern char *gets (char *__s) __attribute__ ((__deprecated__));
+
+extern __ssize_t __getdelim (char **__restrict __lineptr,
+          size_t *__restrict __n, int __delimiter,
+          FILE *__restrict __stream) ;
+extern __ssize_t getdelim (char **__restrict __lineptr,
+        size_t *__restrict __n, int __delimiter,
+        FILE *__restrict __stream) ;
+extern __ssize_t getline (char **__restrict __lineptr,
+       size_t *__restrict __n,
+       FILE *__restrict __stream) ;
+
+extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+extern int puts (const char *__s);
+extern int ungetc (int __c, FILE *__stream);
+extern size_t fread (void *__restrict __ptr, size_t __size,
+       size_t __n, FILE *__restrict __stream) ;
+extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+        size_t __n, FILE *__restrict __s);
+
+extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+         size_t __n, FILE *__restrict __stream) ;
+extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+          size_t __n, FILE *__restrict __stream);
+
+extern int fseek (FILE *__stream, long int __off, int __whence);
+extern long int ftell (FILE *__stream) ;
+extern void rewind (FILE *__stream);
+
+extern int fseeko (FILE *__stream, __off64_t __off, int __whence) __asm__ ("" "fseeko64");
+extern __off64_t ftello (FILE *__stream) __asm__ ("" "ftello64");
+
+extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos) __asm__ ("" "fgetpos64");
+extern int fsetpos (FILE *__stream, const fpos_t *__pos) __asm__ ("" "fsetpos64");
+
+
+extern void clearerr (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+extern int feof (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern int ferror (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
+
+extern void clearerr_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+extern int feof_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern int ferror_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
+
+extern void perror (const char *__s);
+
+extern int sys_nerr;
+extern const char *const sys_errlist[];
+extern int fileno (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern int fileno_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern FILE *popen (const char *__command, const char *__modes) ;
+extern int pclose (FILE *__stream);
+extern char *ctermid (char *__s) __attribute__ ((__nothrow__ , __leaf__));
+extern void flockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+extern int ftrylockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+
+typedef struct pcap pcap_t;
+typedef struct pcap_dumper pcap_dumper_t;
+typedef struct pcap_if pcap_if_t;
+typedef struct pcap_addr pcap_addr_t;
+struct pcap_file_header {
+ bpf_u_int32 magic;
+ u_short version_major;
+ u_short version_minor;
+ bpf_int32 thiszone;
+ bpf_u_int32 sigfigs;
+ bpf_u_int32 snaplen;
+ bpf_u_int32 linktype;
+};
+typedef enum {
+       PCAP_D_INOUT = 0,
+       PCAP_D_IN,
+       PCAP_D_OUT
+} pcap_direction_t;
+struct pcap_pkthdr {
+ struct timeval ts;
+ bpf_u_int32 caplen;
+ bpf_u_int32 len;
+};
+struct pcap_stat {
+ u_int ps_recv;
+ u_int ps_drop;
+ u_int ps_ifdrop;
+};
+struct pcap_if {
+ struct pcap_if *next;
+ char *name;
+ char *description;
+ struct pcap_addr *addresses;
+ bpf_u_int32 flags;
+};
+struct pcap_addr {
+ struct pcap_addr *next;
+ struct sockaddr *addr;
+ struct sockaddr *netmask;
+ struct sockaddr *broadaddr;
+ struct sockaddr *dstaddr;
+};
+typedef void (*pcap_handler)(u_char *, const struct pcap_pkthdr *,
+        const u_char *);
+char *pcap_lookupdev(char *);
+int pcap_lookupnet(const char *, bpf_u_int32 *, bpf_u_int32 *, char *);
+pcap_t *pcap_create(const char *, char *);
+int pcap_set_snaplen(pcap_t *, int);
+int pcap_set_promisc(pcap_t *, int);
+int pcap_can_set_rfmon(pcap_t *);
+int pcap_set_rfmon(pcap_t *, int);
+int pcap_set_timeout(pcap_t *, int);
+int pcap_set_tstamp_type(pcap_t *, int);
+int pcap_set_immediate_mode(pcap_t *, int);
+int pcap_set_buffer_size(pcap_t *, int);
+int pcap_set_tstamp_precision(pcap_t *, int);
+int pcap_get_tstamp_precision(pcap_t *);
+int pcap_activate(pcap_t *);
+int pcap_list_tstamp_types(pcap_t *, int **);
+void pcap_free_tstamp_types(int *);
+int pcap_tstamp_type_name_to_val(const char *);
+const char *pcap_tstamp_type_val_to_name(int);
+const char *pcap_tstamp_type_val_to_description(int);
+pcap_t *pcap_open_live(const char *, int, int, int, char *);
+pcap_t *pcap_open_dead(int, int);
+pcap_t *pcap_open_dead_with_tstamp_precision(int, int, u_int);
+pcap_t *pcap_open_offline_with_tstamp_precision(const char *, u_int, char *);
+pcap_t *pcap_open_offline(const char *, char *);
+pcap_t *pcap_fopen_offline_with_tstamp_precision(FILE *, u_int, char *);
+pcap_t *pcap_fopen_offline(FILE *, char *);
+void pcap_close(pcap_t *);
+int pcap_loop(pcap_t *, int, pcap_handler, u_char *);
+int pcap_dispatch(pcap_t *, int, pcap_handler, u_char *);
+const u_char*
+ pcap_next(pcap_t *, struct pcap_pkthdr *);
+int pcap_next_ex(pcap_t *, struct pcap_pkthdr **, const u_char **);
+void pcap_breakloop(pcap_t *);
+int pcap_stats(pcap_t *, struct pcap_stat *);
+int pcap_setfilter(pcap_t *, struct bpf_program *);
+int pcap_setdirection(pcap_t *, pcap_direction_t);
+int pcap_getnonblock(pcap_t *, char *);
+int pcap_setnonblock(pcap_t *, int, char *);
+int pcap_inject(pcap_t *, const void *, size_t);
+int pcap_sendpacket(pcap_t *, const u_char *, int);
+const char *pcap_statustostr(int);
+const char *pcap_strerror(int);
+char *pcap_geterr(pcap_t *);
+void pcap_perror(pcap_t *, char *);
+int pcap_compile(pcap_t *, struct bpf_program *, const char *, int,
+     bpf_u_int32);
+int pcap_compile_nopcap(int, int, struct bpf_program *,
+     const char *, int, bpf_u_int32);
+void pcap_freecode(struct bpf_program *);
+int pcap_offline_filter(const struct bpf_program *,
+     const struct pcap_pkthdr *, const u_char *);
+int pcap_datalink(pcap_t *);
+int pcap_datalink_ext(pcap_t *);
+int pcap_list_datalinks(pcap_t *, int **);
+int pcap_set_datalink(pcap_t *, int);
+void pcap_free_datalinks(int *);
+int pcap_datalink_name_to_val(const char *);
+const char *pcap_datalink_val_to_name(int);
+const char *pcap_datalink_val_to_description(int);
+int pcap_snapshot(pcap_t *);
+int pcap_is_swapped(pcap_t *);
+int pcap_major_version(pcap_t *);
+int pcap_minor_version(pcap_t *);
+FILE *pcap_file(pcap_t *);
+int pcap_fileno(pcap_t *);
+pcap_dumper_t *pcap_dump_open(pcap_t *, const char *);
+pcap_dumper_t *pcap_dump_fopen(pcap_t *, FILE *fp);
+FILE *pcap_dump_file(pcap_dumper_t *);
+long pcap_dump_ftell(pcap_dumper_t *);
+int pcap_dump_flush(pcap_dumper_t *);
+void pcap_dump_close(pcap_dumper_t *);
+void pcap_dump(u_char *, const struct pcap_pkthdr *, const u_char *);
+int pcap_findalldevs(pcap_if_t **, char *);
+void pcap_freealldevs(pcap_if_t *);
+const char *pcap_lib_version(void);
+u_int bpf_filter(const struct bpf_insn *, const u_char *, u_int, u_int);
+int bpf_validate(const struct bpf_insn *f, int len);
+char *bpf_image(const struct bpf_insn *, int);
+void bpf_dump(const struct bpf_program *, int);
+int pcap_get_selectable_fd(pcap_t *);
+
+Compiler stderr:
+ 
+Has header "pcap.h" with dependency -lpcap: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc2kmletn
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc2kmletn/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc2kmletn/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-qual 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-qual: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprl30c2lq
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprl30c2lq/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprl30c2lq/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeprecated 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdeprecated: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuun596sd
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuun596sd/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuun596sd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpp_t1r1xi
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpp_t1r1xi/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpp_t1r1xi/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-nonliteral ignored without -Wformat [-Wformat-nonliteral]
+
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp141_aw0m
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp141_aw0m/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp141_aw0m/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-security ignored without -Wformat [-Wformat-security]
+
+Compiler for C supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp031e7yux
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp031e7yux/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp031e7yux/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpe1nc4abs
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpe1nc4abs/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpe1nc4abs/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvsvvexnv
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvsvvexnv/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvsvvexnv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2nc_dfn5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2nc_dfn5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2nc_dfn5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy7uxt91c
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy7uxt91c/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy7uxt91c/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4yjfray0
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4yjfray0/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4yjfray0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpivh2jpvf
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpivh2jpvf/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpivh2jpvf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2_1sd3a2
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2_1sd3a2/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2_1sd3a2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpeprv2x5p
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpeprv2x5p/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpeprv2x5p/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpsckxu6id
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpsckxu6id/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpsckxu6id/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-address-of-packed-member -Waddress-of-packed-member 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Waddress-of-packed-member'
+
+Compiler for C supports arguments -Wno-address-of-packed-member -Waddress-of-packed-member: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj0ihb_s0
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj0ihb_s0/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj0ihb_s0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-packed-not-aligned -Wpacked-not-aligned 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wpacked-not-aligned'
+
+Compiler for C supports arguments -Wno-packed-not-aligned -Wpacked-not-aligned: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp6e1y8izy
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp6e1y8izy/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp6e1y8izy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-field-initializers -Wmissing-field-initializers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-field-initializers -Wmissing-field-initializers: YES 
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/binutils-avx512-check.py /usr/bin/objdump cc
+--- stdout ---
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp26_5xr_b
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp26_5xr_b/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp26_5xr_b/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+
+Compiler for C supports arguments -mavx512f: NO 
+Running compile:
+Working directory:  /tmp/tmp7jmvocem
+Command line:  cc /tmp/tmp7jmvocem/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __SSE4_2__
+        # define __SSE4_2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__SSE4_2__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__SSE4_2__" : 1 
+Running compile:
+Working directory:  /tmp/tmp904zuyof
+Command line:  cc /tmp/tmp904zuyof/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AES__
+        # define __AES__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AES__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__AES__" : 1 
+Running compile:
+Working directory:  /tmp/tmp831ylm7j
+Command line:  cc /tmp/tmp831ylm7j/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX__
+        # define __AVX__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX__" : 1 
+Running compile:
+Working directory:  /tmp/tmpzttlij0w
+Command line:  cc /tmp/tmpzttlij0w/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX2__
+        # define __AVX2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX2__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX2__" : 1 
+Running compile:
+Working directory:  /tmp/tmppv5fmoqc
+Command line:  cc /tmp/tmppv5fmoqc/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512BW__
+        # define __AVX512BW__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512BW__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX512BW__" :  
+Running compile:
+Working directory:  /tmp/tmpowk7d070
+Command line:  cc /tmp/tmpowk7d070/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512CD__
+        # define __AVX512CD__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512CD__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX512CD__" :  
+Running compile:
+Working directory:  /tmp/tmp5b_y6zgv
+Command line:  cc /tmp/tmp5b_y6zgv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512DQ__
+        # define __AVX512DQ__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512DQ__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX512DQ__" :  
+Running compile:
+Working directory:  /tmp/tmpqbnmewjv
+Command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  
+Running compile:
+Working directory:  /tmp/tmp84pce3eo
+Command line:  cc /tmp/tmp84pce3eo/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512VL__
+        # define __AVX512VL__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512VL__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX512VL__" :  
+Running compile:
+Working directory:  /tmp/tmpqau58nue
+Command line:  cc /tmp/tmpqau58nue/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __PCLMUL__
+        # define __PCLMUL__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__PCLMUL__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__PCLMUL__" : 1 
+Running compile:
+Working directory:  /tmp/tmpoj3agu57
+Command line:  cc /tmp/tmpoj3agu57/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __RDRND__
+        # define __RDRND__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__RDRND__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__RDRND__" : 1 
+Running compile:
+Working directory:  /tmp/tmpte5v5oj3
+Command line:  cc /tmp/tmpte5v5oj3/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __RDSEED__
+        # define __RDSEED__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__RDSEED__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__RDSEED__" : 1 
+Running compile:
+Working directory:  /tmp/tmpw20zehm5
+Command line:  cc /tmp/tmpw20zehm5/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __VPCLMULQDQ__
+        # define __VPCLMULQDQ__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__VPCLMULQDQ__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Compiler stderr:
+ 
+Fetching value of define "__VPCLMULQDQ__" :  
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/list-dir-globs.py flow_classify,kni
+--- stdout ---
+flow_classify
+kni
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpfea7km3x
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpfea7km3x/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpfea7km3x/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-truncation -Wformat-truncation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wformat-truncation'
+
+Compiler for C supports arguments -Wno-format-truncation -Wformat-truncation: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpga3uv3jy
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpga3uv3jy/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpga3uv3jy/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <unistd.h>
+#include <limits.h>
+
+        #if defined __stub_getentropy || defined __stub___getentropy
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &getentropy;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpga3uv3jy/testfile.c: In function 'main':
+/root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpga3uv3jy/testfile.c:9:32: error: 'getentropy' undeclared (first use in this function)
+             void *a = (void*) &getentropy;
+                                ^
+/root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpga3uv3jy/testfile.c:9:32: note: each undeclared identifier is reported only once for each function it appears in
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9xlpfbsw
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9xlpfbsw/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9xlpfbsw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <unistd.h>
+        int main(void) {
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_getentropy)
+                #error "__builtin_getentropy not found"
+            #endif
+        #elif ! defined(getentropy)
+            /* Check for __builtin_getentropy only if no includes were added to the
+             * prefix above, which means no definition of getentropy can be found.
+             * We would always check for this, but we get false positives on
+             * MSYS2 if we do. Their toolchain is broken, but we can at least
+             * give them a workaround. */
+            #if 0
+                __builtin_getentropy;
+            #else
+                #error "No definition for __builtin_getentropy found in the prefix"
+            #endif
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9xlpfbsw/testfile.c: In function 'main':
+/root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9xlpfbsw/testfile.c:16:18: error: #error "No definition for __builtin_getentropy found in the prefix"
+                 #error "No definition for __builtin_getentropy found in the prefix"
+                  ^
+
+Checking for function "getentropy" : NO 
+Using cached compile:
+Cached command line:  cc /tmp/tmpqau58nue/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __PCLMUL__
+        # define __PCLMUL__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__PCLMUL__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Cached compiler stderr:
+ 
+Fetching value of define "__PCLMUL__" : 1 (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpgryzqwkl
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpgryzqwkl/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpgryzqwkl/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mpclmul 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -mpclmul: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph4mmb7al
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph4mmb7al/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph4mmb7al/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -maes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -maes: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5s5i_pl5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5s5i_pl5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5s5i_pl5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+
+Compiler for C supports arguments -mavx512f: NO 
+Using cached compile:
+Cached command line:  cc /tmp/tmpzttlij0w/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX2__
+        # define __AVX2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX2__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX2__" : 1 (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp84pce3eo/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512VL__
+        # define __AVX512VL__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512VL__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512VL__" :  (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpowk7d070/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512CD__
+        # define __AVX512CD__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512CD__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512CD__" :  (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmppv5fmoqc/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512BW__
+        # define __AVX512BW__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512BW__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512BW__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpa_2jbj20
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpa_2jbj20/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpa_2jbj20/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f -mavx512vl -mavx512cd -mavx512bw 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+cc: error: unrecognized command line option '-mavx512vl'
+cc: error: unrecognized command line option '-mavx512cd'
+cc: error: unrecognized command line option '-mavx512bw'
+
+Compiler for C supports arguments -mavx512f -mavx512vl -mavx512cd -mavx512bw: NO 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libelf' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libelf` -> 1
+
+Run-time dependency libelf found: NO (tried pkgconfig)
+lib/bpf/meson.build:36: WARNING: libelf is missing, rte_bpf_elf_load API will be disabled
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp5b_y6zgv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512DQ__
+        # define __AVX512DQ__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512DQ__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512DQ__" :  (cached)
+Running compile:
+Working directory:  /tmp/tmp6sucwtoa
+Command line:  cc /tmp/tmp6sucwtoa/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512IFMA__
+        # define __AVX512IFMA__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512IFMA__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Compiler stderr:
+ 
+Fetching value of define "__AVX512IFMA__" :  
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpay2j_z1m
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpay2j_z1m/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpay2j_z1m/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f -mavx512dq -mavx512ifma 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+cc: error: unrecognized command line option '-mavx512dq'
+cc: error: unrecognized command line option '-mavx512ifma'
+
+Compiler for C supports arguments -mavx512f -mavx512dq -mavx512ifma: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy9olx8xb
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy9olx8xb/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy9olx8xb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cast-qual -Wcast-qual 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-qual -Wcast-qual: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpcy4js6l5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpcy4js6l5/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("linux/userfaultfd.h")
+          #error "Header 'linux/userfaultfd.h' could not be found"
+         #endif
+        #else
+         #include <linux/userfaultfd.h>
+        #endif
+Compiler stdout:
+ typedef __signed__ char __s8;
+typedef unsigned char __u8;
+typedef __signed__ short __s16;
+typedef unsigned short __u16;
+typedef __signed__ int __s32;
+typedef unsigned int __u32;
+__extension__ typedef __signed__ long long __s64;
+__extension__ typedef unsigned long long __u64;
+typedef struct {
+ unsigned long fds_bits[1024 / (8 * sizeof(long))];
+} __kernel_fd_set;
+typedef void (*__kernel_sighandler_t)(int);
+typedef int __kernel_key_t;
+typedef int __kernel_mqd_t;
+typedef unsigned short __kernel_old_uid_t;
+typedef unsigned short __kernel_old_gid_t;
+typedef unsigned long __kernel_old_dev_t;
+typedef long __kernel_long_t;
+typedef unsigned long __kernel_ulong_t;
+typedef __kernel_ulong_t __kernel_ino_t;
+typedef unsigned int __kernel_mode_t;
+typedef int __kernel_pid_t;
+typedef int __kernel_ipc_pid_t;
+typedef unsigned int __kernel_uid_t;
+typedef unsigned int __kernel_gid_t;
+typedef __kernel_long_t __kernel_suseconds_t;
+typedef int __kernel_daddr_t;
+typedef unsigned int __kernel_uid32_t;
+typedef unsigned int __kernel_gid32_t;
+typedef __kernel_ulong_t __kernel_size_t;
+typedef __kernel_long_t __kernel_ssize_t;
+typedef __kernel_long_t __kernel_ptrdiff_t;
+typedef struct {
+ int val[2];
+} __kernel_fsid_t;
+typedef __kernel_long_t __kernel_off_t;
+typedef long long __kernel_loff_t;
+typedef __kernel_long_t __kernel_time_t;
+typedef __kernel_long_t __kernel_clock_t;
+typedef int __kernel_timer_t;
+typedef int __kernel_clockid_t;
+typedef char * __kernel_caddr_t;
+typedef unsigned short __kernel_uid16_t;
+typedef unsigned short __kernel_gid16_t;
+typedef __u16 __le16;
+typedef __u16 __be16;
+typedef __u32 __le32;
+typedef __u32 __be32;
+typedef __u64 __le64;
+typedef __u64 __be64;
+typedef __u16 __sum16;
+typedef __u32 __wsum;
+struct uffd_msg {
+ __u8 event;
+ __u8 reserved1;
+ __u16 reserved2;
+ __u32 reserved3;
+ union {
+  struct {
+   __u64 flags;
+   __u64 address;
+   union {
+    __u32 ptid;
+   } feat;
+  } pagefault;
+  struct {
+   __u32 ufd;
+  } fork;
+  struct {
+   __u64 from;
+   __u64 to;
+   __u64 len;
+  } remap;
+  struct {
+   __u64 start;
+   __u64 end;
+  } remove;
+  struct {
+   __u64 reserved1;
+   __u64 reserved2;
+   __u64 reserved3;
+  } reserved;
+ } arg;
+} __attribute__((packed));
+struct uffdio_api {
+ __u64 api;
+ __u64 features;
+ __u64 ioctls;
+};
+struct uffdio_range {
+ __u64 start;
+ __u64 len;
+};
+struct uffdio_register {
+ struct uffdio_range range;
+ __u64 mode;
+ __u64 ioctls;
+};
+struct uffdio_copy {
+ __u64 dst;
+ __u64 src;
+ __u64 len;
+ __u64 mode;
+ __s64 copy;
+};
+struct uffdio_zeropage {
+ struct uffdio_range range;
+ __u64 mode;
+ __s64 zeropage;
+};
+
+Compiler stderr:
+ 
+Has header "linux/userfaultfd.h" : YES 
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp5b_y6zgv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512DQ__
+        # define __AVX512DQ__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512DQ__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512DQ__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpe4ts0bka
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpe4ts0bka/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpe4ts0bka/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f -mavx512dq 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+cc: error: unrecognized command line option '-mavx512dq'
+
+Compiler for C supports arguments -mavx512f -mavx512dq: NO 
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/list-dir-globs.py ,
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/list-dir-globs.py ,
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/list-dir-globs.py */*
+--- stdout ---
+crypto/mvsam
+crypto/bcmfs
+crypto/uadk
+crypto/qat
+crypto/mlx5
+crypto/virtio
+crypto/nitrox
+crypto/dpaa2_sec
+crypto/scheduler
+crypto/ccp
+crypto/armv8
+crypto/ipsec_mb
+crypto/null
+crypto/dpaa_sec
+crypto/openssl
+crypto/cnxk
+crypto/caam_jr
+crypto/octeontx
+compress/qat
+compress/mlx5
+compress/zlib
+compress/isal
+compress/octeontx
+gpu/cuda
+net/cxgbe
+net/txgbe
+net/pcap
+net/atlantic
+net/igc
+net/octeon_ep
+net/pfe
+net/ena
+net/thunderx
+net/softnic
+net/ionic
+net/kni
+net/fm10k
+net/enic
+net/axgbe
+net/e1000
+net/mlx4
+net/gve
+net/qede
+net/bonding
+net/ipn3ke
+net/dpaa2
+net/mlx5
+net/virtio
+net/vdev_netvsc
+net/sfc
+net/bnxt
+net/ice
+net/i40e
+net/hns3
+net/tap
+net/mvpp2
+net/iavf
+net/enetfec
+net/null
+net/vhost
+net/enetc
+net/mana
+net/nfb
+net/memif
+net/failsafe
+net/avp
+net/nfp
+net/ark
+net/idpf
+net/ngbe
+net/ring
+net/af_packet
+net/ixgbe
+net/hinic
+net/vmxnet3
+net/dpaa
+net/mvneta
+net/cnxk
+net/liquidio
+net/netvsc
+net/bnx2x
+net/af_xdp
+net/octeontx
+vdpa/mlx5
+vdpa/sfc
+vdpa/ifc
+bus/pci
+bus/fslmc
+bus/vmbus
+bus/dpaa
+bus/ifpga
+bus/vdev
+bus/auxiliary
+regex/cn9k
+regex/mlx5
+common/mvep
+common/dpaax
+common/cpt
+common/qat
+common/mlx5
+common/iavf
+common/sfc_efx
+common/idpf
+common/cnxk
+common/octeontx
+baseband/fpga_lte_fec
+baseband/la12xx
+baseband/null
+baseband/turbo_sw
+baseband/fpga_5gnr_fec
+baseband/acc
+mempool/dpaa2
+mempool/bucket
+mempool/ring
+mempool/stack
+mempool/dpaa
+mempool/cnxk
+mempool/octeontx
+dma/ioat
+dma/dpaa2
+dma/skeleton
+dma/hisilicon
+dma/idxd
+dma/dpaa
+dma/cnxk
+event/sw
+event/dpaa2
+event/dlb2
+event/skeleton
+event/opdl
+event/dpaa
+event/cnxk
+event/dsw
+event/octeontx
+raw/cnxk_gpio
+raw/skeleton
+raw/cnxk_bphy
+raw/ntb
+raw/ifpga
+raw/dpaa2_cmdif
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9mgepug4
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9mgepug4/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp9mgepug4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-truncation -Wformat-truncation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wformat-truncation'
+
+Compiler for C supports arguments -Wno-format-truncation -Wformat-truncation: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0j42isco
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0j42isco/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0j42isco/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cast-qual -Wcast-qual 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-qual -Wcast-qual: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8zpby111
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8zpby111/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8zpby111/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-arith -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pointer-arith -Wpointer-arith: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8e2y_eyb
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8e2y_eyb/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8e2y_eyb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-to-int-cast -Wpointer-to-int-cast 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pointer-to-int-cast -Wpointer-to-int-cast: YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libmusdk' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libmusdk` -> 1
+
+Run-time dependency libmusdk found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpm1wbh2mt
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpm1wbh2mt/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpm1wbh2mt/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cast-qual -Wcast-qual 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-qual -Wcast-qual: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_qpmssjg
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_qpmssjg/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_qpmssjg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-arith -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pointer-arith -Wpointer-arith: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpappxsi3q
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpappxsi3q/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpappxsi3q/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -std=c11: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy5fvh7sf
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy5fvh7sf/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpy5fvh7sf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-prototypes -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp612i6dfg
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp612i6dfg/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp612i6dfg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_BSD_SOURCE 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -D_BSD_SOURCE: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpg60v264c
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpg60v264c/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpg60v264c/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_DEFAULT_SOURCE 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -D_DEFAULT_SOURCE: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph_eys7et
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph_eys7et/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph_eys7et/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_XOPEN_SOURCE=600 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -D_XOPEN_SOURCE=600: YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libmlx5' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libmlx5` -> 1
+
+Run-time dependency libmlx5 found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvjkf8qcn
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvjkf8qcn/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvjkf8qcn/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lmlx5 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lmlx5
+collect2: error: ld returned 1 exit status
+
+Library mlx5 found: NO
+Configuring mlx5_autoconf.h using configuration
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libcrypto' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libcrypto` -> 0
+1.0.2k
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libcrypto` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libcrypto --libs` -> 0
+-L/usr/lib64 -lcrypto
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libcrypto --libs` -> 0
+-lcrypto
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency libcrypto found: YES 1.0.2k
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpki0931uv
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpki0931uv/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpki0931uv/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lIPSec_MB -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lIPSec_MB
+collect2: error: ld returned 1 exit status
+
+Library IPSec_MB found: NO
+Dependency libcrypto found: NO found 1.0.2k but need: '>=3.0.0' (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpom9ylx_m
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpom9ylx_m/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpom9ylx_m/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdisabled-optimization 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdisabled-optimization: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpi0a4aok5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpi0a4aok5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpi0a4aok5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Waggregate-return 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Waggregate-return: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmw3zdwdf
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmw3zdwdf/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmw3zdwdf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wbad-function-cast 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wbad-function-cast: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4zo_6gus
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4zo_6gus/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4zo_6gus/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sign-compare -Wsign-compare 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-sign-compare -Wsign-compare: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4no2_l3l
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4no2_l3l/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4no2_l3l/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0hujuf2k
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0hujuf2k/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0hujuf2k/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpku7odpt0
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpku7odpt0/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpku7odpt0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-empty-body -Wempty-body 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-empty-body -Wempty-body: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7kfq_b2r
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7kfq_b2r/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7kfq_b2r/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_69piihd
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_69piihd/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_69piihd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-arith -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pointer-arith -Wpointer-arith: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmkfd82gb
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmkfd82gb/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmkfd82gb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-arith -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pointer-arith -Wpointer-arith: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwnjyn5g6
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwnjyn5g6/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwnjyn5g6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -march=native 
+
+Code:
+ 
+#include <x86intrin.h>
+__attribute__((target("avx2")))
+__m256i fn(void *x) { return _mm256_loadu_si256(x); }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libxdp' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libxdp` -> 1
+
+Run-time dependency libxdp found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libbpf' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libbpf` -> 1
+
+Run-time dependency libbpf found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuqlq43z3
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuqlq43z3/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuqlq43z3/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lbpf -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lbpf
+collect2: error: ld returned 1 exit status
+
+Library bpf found: NO
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprpouybe7
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprpouybe7/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("linux/if_xdp.h")
+          #error "Header 'linux/if_xdp.h' could not be found"
+         #endif
+        #else
+         #include <linux/if_xdp.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprpouybe7/testfile.c:7:35: fatal error: linux/if_xdp.h: No such file or directory
+          #include <linux/if_xdp.h>
+                                   ^
+compilation terminated.
+
+Has header "linux/if_xdp.h" : NO 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'zlib' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion zlib` -> 0
+1.2.7
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags zlib` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config zlib --libs` -> 0
+-L/usr/lib64 -lz
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config zlib --libs` -> 0
+-lz
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency zlib found: YES 1.2.7
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpi0njvv6w
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpi0njvv6w/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpi0njvv6w/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -DSUPPORT_CFA_HW_ALL=1 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -DSUPPORT_CFA_HW_ALL=1: YES 
+Using cached compile:
+Cached command line:  cc /tmp/tmpzttlij0w/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX2__
+        # define __AVX2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX2__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX2__" : 1 (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpo45kcurr
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpo45kcurr/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpo45kcurr/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -flax-vector-conversions 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -flax-vector-conversions: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpycwxdz7p
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpycwxdz7p/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpycwxdz7p/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpicyvg64q
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpicyvg64q/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpicyvg64q/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-arith -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pointer-arith -Wpointer-arith: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkigzqfiw
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkigzqfiw/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkigzqfiw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-uninitialized -Wuninitialized 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-uninitialized -Wuninitialized: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzf88cs_q
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzf88cs_q/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzf88cs_q/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp51yhvnlw
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp51yhvnlw/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp51yhvnlw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnpgtz_08
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnpgtz_08/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnpgtz_08/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-misleading-indentation -Wmisleading-indentation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wmisleading-indentation'
+
+Compiler for C supports arguments -Wno-misleading-indentation -Wmisleading-indentation: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5gpqmlbz
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5gpqmlbz/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5gpqmlbz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-implicit-fallthrough -Wimplicit-fallthrough 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wimplicit-fallthrough'
+
+Compiler for C supports arguments -Wno-implicit-fallthrough -Wimplicit-fallthrough: NO 
+Using cached compile:
+Cached command line:  cc /tmp/tmpzttlij0w/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX2__
+        # define __AVX2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX2__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX2__" : 1 (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp15o2r5dp
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp15o2r5dp/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp15o2r5dp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpovrkzl4k
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpovrkzl4k/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpovrkzl4k/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-value -Wunused-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value -Wunused-value: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0jli3tb1
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0jli3tb1/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0jli3tb1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj6ymj3xs
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj6ymj3xs/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpj6ymj3xs/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-extra-args -Wformat-extra-args 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-extra-args ignored without -Wformat [-Wformat-extra-args]
+
+Compiler for C supports arguments -Wno-format-extra-args -Wformat-extra-args: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpg86sbp9x
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpg86sbp9x/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpg86sbp9x/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpztt1hiu5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpztt1hiu5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpztt1hiu5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-implicit-fallthrough -Wimplicit-fallthrough 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wimplicit-fallthrough'
+
+Compiler for C supports arguments -Wno-implicit-fallthrough -Wimplicit-fallthrough: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzod7313z
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzod7313z/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzod7313z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sign-compare -Wsign-compare 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-sign-compare -Wsign-compare: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpl03xn0m1
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpl03xn0m1/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpl03xn0m1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-value -Wunused-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value -Wunused-value: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpu3y1qikx
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpu3y1qikx/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpu3y1qikx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format -Wformat 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-format -Wformat: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpv8mnyaum
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpv8mnyaum/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpv8mnyaum/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-security -Wformat-security 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-security ignored without -Wformat [-Wformat-security]
+
+Compiler for C supports arguments -Wno-format-security -Wformat-security: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwo2l8bx2
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwo2l8bx2/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpwo2l8bx2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-nonliteral ignored without -Wformat [-Wformat-nonliteral]
+
+Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnw_4b3oh
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnw_4b3oh/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnw_4b3oh/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2z8_as2i
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2z8_as2i/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2z8_as2i/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc7xdgobm
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc7xdgobm/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpc7xdgobm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Using cached compile:
+Cached command line:  cc /tmp/tmpzttlij0w/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX2__
+        # define __AVX2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX2__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX2__" : 1 (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp60tb_s7h
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp60tb_s7h/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp60tb_s7h/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+
+Compiler for C supports arguments -mavx512f: NO 
+Using cached compile:
+Cached command line:  cc /tmp/tmpzttlij0w/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX2__
+        # define __AVX2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX2__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX2__" : 1 (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkbeunsz8
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkbeunsz8/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkbeunsz8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+
+Compiler for C supports arguments -mavx512f: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp83x_7078
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp83x_7078/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp83x_7078/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-value -Wunused-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value -Wunused-value: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkf6_4bkw
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkf6_4bkw/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkf6_4bkw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkpm9yrhb
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkpm9yrhb/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpkpm9yrhb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp36vcy96a
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp36vcy96a/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp36vcy96a/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Using cached compile:
+Cached command line:  cc /tmp/tmpzttlij0w/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX2__
+        # define __AVX2__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX2__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX2__" : 1 (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt701g7kp
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt701g7kp/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt701g7kp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+
+Compiler for C supports arguments -mavx512f: NO 
+Using cached compile:
+Cached command line:  cc /tmp/tmpqbnmewjv/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512F__
+        # define __AVX512F__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512F__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512F__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4xjzlic5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4xjzlic5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4xjzlic5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+
+Compiler for C supports arguments -mavx512f: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpoebdqi3l
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpoebdqi3l/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpoebdqi3l/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-value -Wunused-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value -Wunused-value: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpxsvpvyr5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpxsvpvyr5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpxsvpvyr5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpr6gk_9z8
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpr6gk_9z8/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpr6gk_9z8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Message: Disabling kni [drivers/net/kni]: missing internal dependency "kni"
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libmlx4' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libmlx4` -> 1
+
+Run-time dependency libmlx4 found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5pms6i8x
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5pms6i8x/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5pms6i8x/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lmlx4 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lmlx4
+collect2: error: ld returned 1 exit status
+
+Library mlx4 found: NO
+Message: Disabling mlx5 [drivers/net/mlx5]: missing internal dependency "common_mlx5"
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libmusdk' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Run-time dependency libmusdk found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libmusdk' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Run-time dependency libmusdk found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'netcope-common' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion netcope-common` -> 1
+
+Run-time dependency netcope-common found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpag_uzpfu
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpag_uzpfu/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpag_uzpfu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-arith -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-pointer-arith -Wpointer-arith: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnow7cty2
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnow7cty2/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnow7cty2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpd6wkk_c6
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpd6wkk_c6/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpd6wkk_c6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sign-compare -Wsign-compare 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-sign-compare -Wsign-compare: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmphiq0h78n
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmphiq0h78n/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmphiq0h78n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpltwzhpz6
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpltwzhpz6/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpltwzhpz6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cast-qual -Wcast-qual 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-qual -Wcast-qual: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdpiir22z
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdpiir22z/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdpiir22z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-function -Wunused-function 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-function -Wunused-function: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8t5o1cuz
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8t5o1cuz/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp8t5o1cuz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-variable -Wunused-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-variable -Wunused-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzifgdjk3
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzifgdjk3/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpzifgdjk3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmptkrtjblz
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmptkrtjblz/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmptkrtjblz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-prototypes -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-prototypes -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmptadt2bh7
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmptadt2bh7/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmptadt2bh7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-value -Wunused-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value -Wunused-value: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_wva5nfx
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_wva5nfx/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_wva5nfx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-nonliteral ignored without -Wformat [-Wformat-nonliteral]
+
+Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvzn0a1nj
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvzn0a1nj/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpvzn0a1nj/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-negative-value -Wshift-negative-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wshift-negative-value'
+
+Compiler for C supports arguments -Wno-shift-negative-value -Wshift-negative-value: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpz3b_8daj
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpz3b_8daj/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpz3b_8daj/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-but-set-variable -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-but-set-variable -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp82_2b_f9
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp82_2b_f9/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp82_2b_f9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-declarations -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-declarations -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4n0bmqu1
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4n0bmqu1/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4n0bmqu1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-maybe-uninitialized -Wmaybe-uninitialized 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-maybe-uninitialized -Wmaybe-uninitialized: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5_bpewgd
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5_bpewgd/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5_bpewgd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-prototypes -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-prototypes -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5390tj1w
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5390tj1w/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp5390tj1w/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-shift-negative-value -Wshift-negative-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wshift-negative-value'
+
+Compiler for C supports arguments -Wno-shift-negative-value -Wshift-negative-value: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpk45q8wsx
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpk45q8wsx/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpk45q8wsx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-implicit-fallthrough -Wimplicit-fallthrough 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wimplicit-fallthrough'
+
+Compiler for C supports arguments -Wno-implicit-fallthrough -Wimplicit-fallthrough: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7vm5u90n
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7vm5u90n/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7vm5u90n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-extra-args -Wformat-extra-args 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-extra-args ignored without -Wformat [-Wformat-extra-args]
+
+Compiler for C supports arguments -Wno-format-extra-args -Wformat-extra-args: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp41i64007
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp41i64007/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp41i64007/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-visibility -Wvisibility 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wvisibility'
+
+Compiler for C supports arguments -Wno-visibility -Wvisibility: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdgdbqqg2
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdgdbqqg2/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdgdbqqg2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-empty-body -Wempty-body 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-empty-body -Wempty-body: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprlpobmyi
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprlpobmyi/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmprlpobmyi/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-invalid-source-encoding -Winvalid-source-encoding 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Winvalid-source-encoding'
+
+Compiler for C supports arguments -Wno-invalid-source-encoding -Winvalid-source-encoding: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4w6zqni6
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4w6zqni6/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4w6zqni6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sometimes-uninitialized -Wsometimes-uninitialized 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wsometimes-uninitialized'
+
+Compiler for C supports arguments -Wno-sometimes-uninitialized -Wsometimes-uninitialized: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpfmwqied9
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpfmwqied9/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpfmwqied9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-pointer-bool-conversion -Wpointer-bool-conversion 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wpointer-bool-conversion'
+
+Compiler for C supports arguments -Wno-pointer-bool-conversion -Wpointer-bool-conversion: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpaseg2w1w
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpaseg2w1w/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpaseg2w1w/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-nonliteral ignored without -Wformat [-Wformat-nonliteral]
+
+Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmplow5uof3
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmplow5uof3/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmplow5uof3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp24soc9be
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp24soc9be/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp24soc9be/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdisabled-optimization 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdisabled-optimization: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp3s1m8h3z
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp3s1m8h3z/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp3s1m8h3z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Waggregate-return 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Waggregate-return: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnl0iwert
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnl0iwert/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpnl0iwert/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wbad-function-cast 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wbad-function-cast: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4399ud_k
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4399ud_k/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4399ud_k/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+int main(void)
+{
+    __int128 a = 0;
+    __int128 b;
+
+    b = __atomic_load_n(&a, __ATOMIC_RELAXED);
+    __atomic_store(&b, &a, __ATOMIC_RELAXED);
+    __atomic_store_n(&b, a, __ATOMIC_RELAXED);
+    return 0;
+}
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /tmp/ccaNojec.o: In function `main':
+testfile.c:(.text+0x26): undefined reference to `__atomic_load_16'
+testfile.c:(.text+0x50): undefined reference to `__atomic_store_16'
+testfile.c:(.text+0x72): undefined reference to `__atomic_store_16'
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7xz3tk95
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7xz3tk95/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp7xz3tk95/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -latomic -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find /usr/lib64/libatomic.so.1.0.0
+collect2: error: ld returned 1 exit status
+
+Library atomic found: YES
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0ss32ap8
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0ss32ap8/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp0ss32ap8/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libatomic.so -Wl,--end-group 
+
+Code:
+ 
+int main(void)
+{
+    __int128 a = 0;
+    __int128 b;
+
+    b = __atomic_load_n(&a, __ATOMIC_RELAXED);
+    __atomic_store(&b, &a, __ATOMIC_RELAXED);
+    __atomic_store_n(&b, a, __ATOMIC_RELAXED);
+    return 0;
+}
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find /usr/lib64/libatomic.so.1.0.0
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt8nimg6w
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt8nimg6w/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt8nimg6w/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <linux/pkt_cls.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef TCA_FLOWER_UNSPEC
+                TCA_FLOWER_UNSPEC;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/pkt_cls.h> has symbol "TCA_FLOWER_UNSPEC" : YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_6jo8u62
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_6jo8u62/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_6jo8u62/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <linux/pkt_cls.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef TCA_FLOWER_KEY_VLAN_PRIO
+                TCA_FLOWER_KEY_VLAN_PRIO;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/pkt_cls.h> has symbol "TCA_FLOWER_KEY_VLAN_PRIO" : YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmi705w7o
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmi705w7o/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpmi705w7o/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <linux/pkt_cls.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef TCA_BPF_UNSPEC
+                TCA_BPF_UNSPEC;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/pkt_cls.h> has symbol "TCA_BPF_UNSPEC" : YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpryfkoxo3
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpryfkoxo3/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpryfkoxo3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <linux/pkt_cls.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef TCA_BPF_FD
+                TCA_BPF_FD;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpryfkoxo3/testfile.c: In function 'main':
+/root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpryfkoxo3/testfile.c:6:17: error: 'TCA_BPF_FD' undeclared (first use in this function)
+                 TCA_BPF_FD;
+                 ^
+/root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpryfkoxo3/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+
+Header <linux/pkt_cls.h> has symbol "TCA_BPF_FD" : NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_xt1zyhw
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_xt1zyhw/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_xt1zyhw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <linux/tc_act/tc_bpf.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef TCA_ACT_BPF_UNSPEC
+                TCA_ACT_BPF_UNSPEC;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp_xt1zyhw/testfile.c:2:41: fatal error: linux/tc_act/tc_bpf.h: No such file or directory
+         #include <linux/tc_act/tc_bpf.h>
+                                         ^
+compilation terminated.
+
+Header <linux/tc_act/tc_bpf.h> has symbol "TCA_ACT_BPF_UNSPEC" : NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpbgz7n2vm
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpbgz7n2vm/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpbgz7n2vm/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+        #include <linux/tc_act/tc_bpf.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef TCA_ACT_BPF_FD
+                TCA_ACT_BPF_FD;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpbgz7n2vm/testfile.c:2:41: fatal error: linux/tc_act/tc_bpf.h: No such file or directory
+         #include <linux/tc_act/tc_bpf.h>
+                                         ^
+compilation terminated.
+
+Header <linux/tc_act/tc_bpf.h> has symbol "TCA_ACT_BPF_FD" : NO 
+Configuring tap_autoconf.h using configuration
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt2t3_y7l
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt2t3_y7l/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpt2t3_y7l/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fno-prefetch-loop-arrays 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fno-prefetch-loop-arrays: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp15j5f3qd
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp15j5f3qd/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp15j5f3qd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-maybe-uninitialized -Wmaybe-uninitialized 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-maybe-uninitialized -Wmaybe-uninitialized: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2h3bqmab
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2h3bqmab/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp2h3bqmab/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_BSD_SOURCE 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -D_BSD_SOURCE: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp51m5qc65
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp51m5qc65/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp51m5qc65/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_DEFAULT_SOURCE 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -D_DEFAULT_SOURCE: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp1waui6i0
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp1waui6i0/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp1waui6i0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_XOPEN_SOURCE=600 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -D_XOPEN_SOURCE=600: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmplj23c5nq
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmplj23c5nq/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmplj23c5nq/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512f 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512f'
+
+Compiler for C supports arguments -mavx512f: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuzii2axw
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuzii2axw/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpuzii2axw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4axdlxya
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4axdlxya/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmp4axdlxya/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-value -Wunused-value 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value -Wunused-value: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpilt9jnie
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpilt9jnie/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpilt9jnie/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpyu2eeg0p
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpyu2eeg0p/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpyu2eeg0p/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-extra-args -Wformat-extra-args 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-extra-args ignored without -Wformat [-Wformat-extra-args]
+
+Compiler for C supports arguments -Wno-format-extra-args -Wformat-extra-args: YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libAArch64crypto' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libAArch64crypto` -> 1
+
+Run-time dependency libaarch64crypto found: NO (tried pkgconfig)
+Dependency libcrypto found: YES 1.0.2k (cached)
+Library IPSec_MB found: NO
+Message: Disabling mlx5 [drivers/crypto/mlx5]: missing internal dependency "common_mlx5"
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libmusdk' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Run-time dependency libmusdk found: NO (tried pkgconfig)
+Dependency libcrypto found: YES 1.0.2k (cached)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libwd_crypto' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libwd_crypto` -> 1
+
+Run-time dependency libwd_crypto found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libwd' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libwd` -> 1
+
+Run-time dependency libwd found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libisal' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libisal` -> 1
+
+Run-time dependency libisal found: NO (tried pkgconfig)
+Message: Disabling mlx5 [drivers/compress/mlx5]: missing internal dependency "common_mlx5"
+Dependency zlib found: YES 1.2.7 (cached)
+Message: Disabling mlx5 [drivers/regex/mlx5]: missing internal dependency "common_mlx5"
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpso7ifqv5
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpso7ifqv5/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpso7ifqv5/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -llibrxp_compiler -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -llibrxp_compiler
+collect2: error: ld returned 1 exit status
+
+Library librxp_compiler found: NO
+Message: Disabling mlx5 [drivers/vdpa/mlx5]: missing internal dependency "common_mlx5"
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdgvvyqlf
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdgvvyqlf/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpdgvvyqlf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -flax-vector-conversions 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -flax-vector-conversions: YES 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpare5n76q
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpare5n76q/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpare5n76q/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Using cached compile:
+Cached command line:  cc /tmp/tmp84pce3eo/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -march=native 
+
+Code:
+ 
+        
+        #ifndef __AVX512VL__
+        # define __AVX512VL__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__AVX512VL__
+Cached compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+
+
+Cached compiler stderr:
+ 
+Fetching value of define "__AVX512VL__" :  (cached)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpetnskutz
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpetnskutz/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpetnskutz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -mavx512vl 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-mavx512vl'
+
+Compiler for C supports arguments -mavx512vl: NO 
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpez3a3ks_
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpez3a3ks_/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpez3a3ks_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: -Wformat-nonliteral ignored without -Wformat [-Wformat-nonliteral]
+
+Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'flexran_sdk_turbo' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion flexran_sdk_turbo` -> 1
+
+CMake binary for MachineChoice.HOST is not cached
+None of 'CMAKE' are defined in the environment, not changing global flags.
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Trying CMake binary cmake for machine MachineChoice.HOST at [None]
+Did not find CMake 'cmake'
+Found CMake: NO
+No CMake binary for machine MachineChoice.HOST not found. Giving up.
+Run-time dependency flexran_sdk_turbo found: NO (tried pkgconfig and cmake)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'flexran_sdk_ldpc_decoder_5gnr' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion flexran_sdk_ldpc_decoder_5gnr` -> 1
+
+CMake binary for MachineChoice.HOST is cached as not found
+No CMake binary for machine MachineChoice.HOST not found. Giving up.
+Run-time dependency flexran_sdk_ldpc_decoder_5gnr found: NO (tried pkgconfig and cmake)
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph3vt__87
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph3vt__87/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("cuda.h")
+          #error "Header 'cuda.h' could not be found"
+         #endif
+        #else
+         #include <cuda.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmph3vt__87/testfile.c:7:27: fatal error: cuda.h: No such file or directory
+          #include <cuda.h>
+                           ^
+compilation terminated.
+
+Has header "cuda.h" : NO 
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/list-dir-globs.py ,
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/list-dir-globs.py ,
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/python3 /root/networkplatform/dataplane/dpdk/dpdk/buildtools/list-dir-globs.py *
+--- stdout ---
+test-regex
+test-pipeline
+test-sad
+test
+test-cmdline
+dumpcap
+test-flow-perf
+pdump
+test-bbdev
+test-fib
+proc-info
+test-crypto-perf
+test-eventdev
+test-security-perf
+test-compress-perf
+test-gpudev
+test-pmd
+test-acl
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpimete5cd
+Command line:  cc /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpimete5cd/testfile.c -o /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/tmpimete5cd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-truncation -Wformat-truncation 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command line option '-Wformat-truncation'
+
+Compiler for C supports arguments -Wno-format-truncation -Wformat-truncation: NO 
+Dependency zlib found: YES 1.2.7 (cached)
+Running command: /usr/bin/python3 has_hugepage.py
+--- stdout ---
+0
+
+
+--- stderr ---
+
+
+Message: hugepage availability: false
+Adding test "acl_autotest"
+Adding test "bitmap_autotest"
+Adding test "bpf_autotest"
+Adding test "bpf_convert_autotest"
+Adding test "bitops_autotest"
+Adding test "byteorder_autotest"
+Adding test "cksum_autotest"
+Adding test "cmdline_autotest"
+Adding test "common_autotest"
+Adding test "cpuflags_autotest"
+Adding test "debug_autotest"
+Adding test "devargs_autotest"
+Adding test "eal_fs_autotest"
+Adding test "errno_autotest"
+Adding test "ethdev_link_status"
+Adding test "event_ring_autotest"
+Adding test "fib_autotest"
+Adding test "fib6_autotest"
+Adding test "hash_autotest"
+Adding test "interrupt_autotest"
+Adding test "lcores_autotest"
+Adding test "logs_autotest"
+Adding test "lpm_autotest"
+Adding test "lpm6_autotest"
+Adding test "memcpy_autotest"
+Adding test "meter_autotest"
+Adding test "per_lcore_autotest"
+Adding test "pflock_autotest"
+Adding test "prefetch_autotest"
+Adding test "rcu_qsbr_autotest"
+Adding test "pie_autotest"
+Adding test "rib_autotest"
+Adding test "rib6_autotest"
+Adding test "ring_autotest"
+Adding test "rwlock_test1_autotest"
+Adding test "rwlock_rda_autotest"
+Adding test "rwlock_rds_wrm_autotest"
+Adding test "rwlock_rde_wro_autotest"
+Adding test "sched_autotest"
+Adding test "seqlock_autotest"
+Adding test "spinlock_autotest"
+Adding test "string_autotest"
+Adding test "tailq_autotest"
+Adding test "ticketlock_autotest"
+Adding test "user_delay_us"
+Adding test "version_autotest"
+Adding test "crc_autotest"
+Adding test "eventdev_common_autotest"
+Adding test "fbarray_autotest"
+Adding test "ipsec_autotest"
+Adding test "kvargs_autotest"
+Adding test "member_autotest"
+Adding test "power_autotest"
+Adding test "power_intel_uncore_autotest"
+Adding test "reorder_autotest"
+Adding test "service_autotest"
+Adding test "thash_autotest"
+Adding test "threads_autotest"
+Adding test "trace_autotest"
+Adding test "trace_autotest_with_traces"
+Adding test "metrics_autotest"
+Adding test "telemetry_json_autotest"
+Adding test "telemetry_data_autotest"
+Adding test "table_autotest"
+Adding test "ring_pmd_autotest"
+Adding test "bitratestats_autotest"
+Adding test "latencystats_autotest"
+Adding test "pdump_autotest"
+Adding test "vdev_autotest"
+Program test_telemetry.sh found: YES (/bin/sh -e /root/networkplatform/dataplane/dpdk/dpdk/app/test/test_telemetry.sh)
+Adding test "telemetry_all"
+Adding test "ring_perf_autotest"
+Adding test "malloc_perf_autotest"
+Adding test "mempool_perf_autotest"
+Adding test "memcpy_perf_autotest"
+Adding test "hash_perf_autotest"
+Adding test "timer_perf_autotest"
+Adding test "reciprocal_division"
+Adding test "reciprocal_division_perf"
+Adding test "lpm_perf_autotest"
+Adding test "rib_slow_autotest"
+Adding test "fib_slow_autotest"
+Adding test "fib_perf_autotest"
+Adding test "red_all"
+Adding test "pie_all"
+Adding test "barrier_autotest"
+Adding test "hash_multiwriter_autotest"
+Adding test "timer_racecond_autotest"
+Adding test "efd_autotest"
+Adding test "hash_functions_autotest"
+Adding test "member_perf_autotest"
+Adding test "efd_perf_autotest"
+Adding test "lpm6_perf_autotest"
+Adding test "rib6_slow_autotest"
+Adding test "fib6_slow_autotest"
+Adding test "fib6_perf_autotest"
+Adding test "rcu_qsbr_perf_autotest"
+Adding test "red_perf"
+Adding test "pie_perf"
+Adding test "distributor_perf_autotest"
+Adding test "pmd_perf_autotest"
+Adding test "stack_perf_autotest"
+Adding test "stack_lf_perf_autotest"
+Adding test "rand_perf_autotest"
+Adding test "hash_readwrite_perf_autotest"
+Adding test "hash_readwrite_lf_perf_autotest"
+Adding test "trace_perf_autotest"
+Adding test "ipsec_perf_autotest"
+Adding test "thash_perf_autotest"
+Adding test "ring_pmd_perf_autotest"
+Adding test "cryptodev_aesni_gcm_autotest"
+Adding test "cryptodev_aesni_mb_autotest"
+Adding test "cryptodev_cn10k_autotest"
+Adding test "cryptodev_cn9k_autotest"
+Adding test "cryptodev_dpaa2_sec_autotest"
+Adding test "cryptodev_dpaa_sec_autotest"
+Adding test "cryptodev_null_autotest"
+Adding test "cryptodev_openssl_autotest"
+Adding test "cryptodev_qat_autotest"
+Adding test "cryptodev_sw_armv8_autotest"
+Adding test "cryptodev_sw_kasumi_autotest"
+Adding test "cryptodev_sw_mvsam_autotest"
+Adding test "cryptodev_sw_snow3g_autotest"
+Adding test "cryptodev_sw_zuc_autotest"
+Adding test "cryptodev_uadk_autotest"
+Adding test "dmadev_autotest"
+Adding test "rawdev_autotest"
+Adding test "cryptodev_openssl_asym_autotest"
+Adding test "eventdev_selftest_octeontx"
+Adding test "eventdev_selftest_sw"
+Adding test "link_bonding_autotest"
+Adding test "link_bonding_rssconf_autotest"
+Adding test "link_bonding_mode4_autotest"
+Adding test "cryptodev_scheduler_autotest"
+Adding test "dump_struct_sizes"
+Adding test "dump_mempool"
+Adding test "dump_malloc_stats"
+Adding test "dump_devargs"
+Adding test "dump_log_types"
+Adding test "dump_ring"
+Adding test "dump_physmem"
+Adding test "dump_memzone"
+Adding test "alarm_autotest"
+Adding test "red_autotest"
+Program doxygen found: YES (/usr/bin/doxygen)
+Configuring doxy-api.conf using configuration
+Program sphinx-build found: NO
+Configuring rte_build_config.h using configuration
+Running command: /usr/bin/python3 set-static-linker-flags.py
+--- stdout ---
+Processing /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/libdpdk-libs.pc
+Processing /root/networkplatform/dataplane/dpdk/dpdk/build/meson-private/libdpdk.pc
+Processing /root/networkplatform/dataplane/dpdk/dpdk/build/meson-uninstalled/libdpdk-libs-uninstalled.pc
+Processing /root/networkplatform/dataplane/dpdk/dpdk/build/meson-uninstalled/libdpdk-uninstalled.pc
+
+--- stderr ---
+
+
+Message: 
+=================
+Applications Enabled
+=================
+
+apps:
+	dumpcap, pdump, proc-info, test-acl, test-bbdev, test-cmdline, test-compress-perf, test-crypto-perf, 
+	test-eventdev, test-fib, test-flow-perf, test-gpudev, test-pipeline, test-pmd, test-regex, test-sad, 
+	test-security-perf, 
+
+Message: 
+=================
+Libraries Enabled
+=================
+
+libs:
+	kvargs, telemetry, eal, ring, rcu, mempool, mbuf, net, 
+	meter, ethdev, pci, cmdline, metrics, hash, timer, acl, 
+	bbdev, bitratestats, bpf, cfgfile, compressdev, cryptodev, distributor, efd, 
+	eventdev, gpudev, gro, gso, ip_frag, jobstats, latencystats, lpm, 
+	member, pcapng, power, rawdev, regexdev, dmadev, rib, reorder, 
+	sched, security, stack, vhost, ipsec, fib, port, pdump, 
+	table, pipeline, graph, node, 
+
+Message: 
+===============
+Drivers Enabled
+===============
+
+common:
+	cpt, dpaax, iavf, idpf, octeontx, cnxk, qat, sfc_efx, 
+	
+bus:
+	auxiliary, dpaa, fslmc, ifpga, pci, vdev, vmbus, 
+mempool:
+	bucket, cnxk, dpaa, dpaa2, octeontx, ring, stack, 
+dma:
+	cnxk, dpaa, dpaa2, hisilicon, idxd, ioat, skeleton, 
+net:
+	af_packet, ark, atlantic, avp, axgbe, bnx2x, bnxt, bond, 
+	cnxk, cxgbe, dpaa, dpaa2, e1000, ena, enetc, enetfec, 
+	enic, failsafe, fm10k, gve, hinic, hns3, i40e, iavf, 
+	ice, idpf, igc, ionic, ixgbe, liquidio, memif, netvsc, 
+	nfp, ngbe, null, octeontx, octeon_ep, pcap, pfe, qede, 
+	ring, softnic, tap, thunderx, txgbe, vdev_netvsc, vhost, virtio, 
+	vmxnet3, 
+raw:
+	cnxk_bphy, cnxk_gpio, dpaa2_cmdif, ntb, skeleton, 
+crypto:
+	bcmfs, caam_jr, ccp, cnxk, dpaa_sec, dpaa2_sec, nitrox, null, 
+	octeontx, openssl, scheduler, virtio, 
+compress:
+	octeontx, zlib, 
+regex:
+	cn9k, 
+vdpa:
+	ifc, sfc, 
+event:
+	cnxk, dlb2, dpaa, dpaa2, dsw, opdl, skeleton, sw, 
+	octeontx, 
+baseband:
+	acc, fpga_5gnr_fec, fpga_lte_fec, la12xx, null, turbo_sw, 
+gpu:
+	
+
+Message: 
+=================
+Content Skipped
+=================
+
+apps:
+	
+libs:
+	kni:	explicitly disabled via build config (deprecated lib)
+	flow_classify:	explicitly disabled via build config (deprecated lib)
+	
+drivers:
+	common/mvep:	missing dependency, "libmusdk"
+	common/mlx5:	missing dependency, "mlx5"
+	net/af_xdp:	missing header, "linux/if_xdp.h"
+	net/ipn3ke:	missing dependency, "libfdt"
+	net/kni:	missing internal dependency, "kni" (deprecated lib)
+	net/mlx4:	missing dependency, "mlx4"
+	net/mlx5:	missing internal dependency, "common_mlx5"
+	net/mvneta:	missing dependency, "libmusdk"
+	net/mvpp2:	missing dependency, "libmusdk"
+	net/nfb:	missing dependency, "libnfb"
+	net/sfc:	broken dependency, "libatomic"
+	raw/ifpga:	missing dependency, "libfdt"
+	crypto/armv8:	missing dependency, "libAArch64crypto"
+	crypto/ipsec_mb:	missing dependency, "libIPSec_MB"
+	crypto/mlx5:	missing internal dependency, "common_mlx5"
+	crypto/mvsam:	missing dependency, "libmusdk"
+	crypto/uadk:	missing dependency, "libwd"
+	compress/isal:	missing dependency, "libisal"
+	compress/mlx5:	missing internal dependency, "common_mlx5"
+	regex/mlx5:	missing internal dependency, "common_mlx5"
+	vdpa/mlx5:	missing internal dependency, "common_mlx5"
+	gpu/cuda:	missing dependency, "cuda.h"
+	
+
+Build targets in project: 782
+
+Found ninja-1.11.1.git.kitware.jobserver-1 at /usr/local/bin/ninja
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.

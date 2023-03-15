@@ -1,0 +1,32 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_rawdev.so.23]
+DPDK_23 A
+rte_rawdev_close T 00000000000000b2
+rte_rawdev_configure T 0000000000000108
+rte_rawdev_count T 0000000000000008
+rte_rawdev_dequeue_buffers T 0000000000000087
+rte_rawdev_dump T 0000000000000087
+rte_rawdev_enqueue_buffers T 0000000000000087
+rte_rawdev_firmware_load T 000000000000008e
+rte_rawdev_firmware_status_get T 0000000000000087
+rte_rawdev_firmware_unload T 0000000000000087
+rte_rawdev_firmware_version_get T 0000000000000087
+rte_rawdev_get_attr T 0000000000000087
+rte_rawdev_get_dev_id T 0000000000000083
+rte_rawdev_info_get T 00000000000000c9
+rte_rawdev_pmd_allocate T 0000000000000172
+rte_rawdev_pmd_release T 0000000000000077
+rte_rawdev_queue_conf_get T 0000000000000087
+rte_rawdev_queue_count T 000000000000008a
+rte_rawdev_queue_release T 0000000000000087
+rte_rawdev_queue_setup T 0000000000000087
+rte_rawdev_reset T 0000000000000087
+rte_rawdevs D 0000000000000008
+rte_rawdev_selftest T 0000000000000087
+rte_rawdev_set_attr T 0000000000000087
+rte_rawdev_socket_id T 0000000000000069
+rte_rawdev_start T 00000000000000ee
+rte_rawdev_stop T 00000000000000c6
+rte_rawdev_xstats_by_name_get T 00000000000000a5
+rte_rawdev_xstats_get T 0000000000000087
+rte_rawdev_xstats_names_get T 00000000000000e8
+rte_rawdev_xstats_reset T 0000000000000087

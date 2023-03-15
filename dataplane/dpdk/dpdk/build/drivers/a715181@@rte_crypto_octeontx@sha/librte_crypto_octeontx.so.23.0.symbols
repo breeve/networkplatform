@@ -1,0 +1,5 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_crypto_octeontx.so.23]
+DPDK_23 A
+INTERNAL A
+otx_crypto_adapter_dequeue T 0000000000000653
+otx_crypto_adapter_enqueue T 000000000000c79f

@@ -1,0 +1,9 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_bus_vdev.so.23]
+DPDK_23 A
+INTERNAL A
+rte_vdev_add_custom_scan T 00000000000000a5
+rte_vdev_init T 000000000000016d
+rte_vdev_register T 000000000000001d
+rte_vdev_remove_custom_scan T 0000000000000098
+rte_vdev_uninit T 000000000000015e
+rte_vdev_unregister T 000000000000002b

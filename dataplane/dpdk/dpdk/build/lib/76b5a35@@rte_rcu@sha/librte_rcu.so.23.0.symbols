@@ -1,0 +1,14 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_rcu.so.23]
+DPDK_23 A
+EXPERIMENTAL A
+rte_rcu_log_type B 0000000000000004
+rte_rcu_qsbr_dq_create T 00000000000001f0
+rte_rcu_qsbr_dq_delete T 0000000000000090
+rte_rcu_qsbr_dq_enqueue T 0000000000000d7d
+rte_rcu_qsbr_dq_reclaim T 00000000000006ac
+rte_rcu_qsbr_dump T 000000000000022b
+rte_rcu_qsbr_get_memsize T 0000000000000067
+rte_rcu_qsbr_init T 0000000000000095
+rte_rcu_qsbr_synchronize T 0000000000000116
+rte_rcu_qsbr_thread_register T 00000000000000b4
+rte_rcu_qsbr_thread_unregister T 00000000000000bc

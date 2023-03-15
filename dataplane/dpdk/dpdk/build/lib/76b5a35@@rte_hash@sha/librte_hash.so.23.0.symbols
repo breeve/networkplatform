@@ -1,0 +1,43 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_hash.so.23]
+DPDK_23 A
+EXPERIMENTAL A
+rte_fbk_hash_create T 000000000000022c
+rte_fbk_hash_find_existing T 000000000000006d
+rte_fbk_hash_free T 0000000000000089
+rte_hash_add_key T 0000000000000026
+rte_hash_add_key_data T 0000000000000030
+rte_hash_add_key_with_hash T 0000000000000007
+rte_hash_add_key_with_hash_data T 0000000000000017
+rte_hash_count T 0000000000000089
+rte_hash_create T 0000000000000ba0
+rte_hash_del_key T 0000000000000024
+rte_hash_del_key_with_hash T 0000000000000005
+rte_hash_find_existing T 000000000000006d
+rte_hash_free T 0000000000000149
+rte_hash_free_key_with_position T 00000000000000e1
+rte_hash_get_key_with_position T 00000000000004d5
+rte_hash_hash T 000000000000001b
+rte_hash_iterate T 000000000000023f
+rte_hash_lookup T 00000000000004b8
+rte_hash_lookup_bulk T 000000000000002c
+rte_hash_lookup_bulk_data T 0000000000000058
+rte_hash_lookup_data T 0000000000000570
+rte_hash_lookup_with_hash T 00000000000004a8
+rte_hash_lookup_with_hash_bulk T 000000000000002c
+rte_hash_lookup_with_hash_bulk_data T 0000000000000060
+rte_hash_lookup_with_hash_data T 0000000000000548
+rte_hash_max_key_id T 0000000000000016
+rte_hash_rcu_qsbr_add T 00000000000001f4
+rte_hash_reset T 00000000000003a1
+rte_hash_set_cmp_func T 0000000000000012
+rte_thash_add_helper T 0000000000000637
+rte_thash_adjust_tuple T 0000000000000529
+rte_thash_complete_matrix T 00000000000000d0
+rte_thash_find_existing T 000000000000006d
+rte_thash_free_ctx T 00000000000000f8
+rte_thash_get_complement T 000000000000000d
+rte_thash_get_gfni_matrices T 0000000000000005
+rte_thash_get_helper T 0000000000000063
+rte_thash_get_key T 0000000000000005
+rte_thash_gfni_supported T 0000000000000003
+rte_thash_init_ctx T 00000000000005de

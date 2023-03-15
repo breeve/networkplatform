@@ -1,0 +1,12 @@
+ 0x000000000000000e (SONAME)             Library soname: [librte_ring.so.23]
+DPDK_23 A
+rte_ring_create T 0000000000000011
+rte_ring_create_elem T 00000000000001c4
+rte_ring_dump T 0000000000000114
+rte_ring_free T 00000000000000ca
+rte_ring_get_memsize T 000000000000000c
+rte_ring_get_memsize_elem T 0000000000000076
+rte_ring_init T 00000000000002da
+rte_ring_list_dump T 000000000000003f
+rte_ring_lookup T 000000000000006d
+rte_ring_reset T 00000000000000c3

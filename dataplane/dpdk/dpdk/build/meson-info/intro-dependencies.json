@@ -1,0 +1,1 @@
+[{"name": "openssl", "version": "1.0.2k", "compile_args": [], "link_args": ["/usr/lib64/libssl.so", "/usr/lib64/libcrypto.so"]}, {"name": "libcrypto", "version": "1.0.2k", "compile_args": [], "link_args": ["/usr/lib64/libcrypto.so"]}, {"name": "zlib", "version": "1.2.7", "compile_args": [], "link_args": ["/usr/lib64/libz.so"]}]
